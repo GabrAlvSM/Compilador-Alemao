@@ -1,0 +1,38 @@
+                            ****NÃO USAR NO CÓDIGO ***** APENAS PARA CONSULTA DE TRADUÇÕES****
+
+starten         --start
+ende            --end
+variable        --variable
+erhalten        --get
+schreiben       --write --- !!!!!
+drucken         --print
+lesen           --read
+gleich          --equal
+erklaren        --declare
+zahlen          --count
+uberschreiten   --exceed
+anders          --else
+als             --as
+aus             --from
+zu              --to
+nach            --after
+wenn            --if
+ganz            --int/inteiro
+esist           --it is
+oder            --or
+real            --real
+nicht           --not
+zuruckkehren    --return
+dann            --then
+grosser         --greater/bigger (than)
+kleiner         --smaller/lesser (than)
+grosserGleich   --greater or equal
+kleinerGleich   --lesser or equal
+identisch       --equal
+wahrend         --while
+!
+(
+)
+{
+}
+;

@@ -1,0 +1,14 @@
+ganz x;
+ganz y;
+ganz i;
+lesen x;
+y = x * 2;
+fur i aus 1 <= y {
+wenn i > 10 {
+drucken "10 uberschreiten";
+}
+anders {
+drucken "10 nicht uberschreiten";
+}
+}
+zuruckkehren;

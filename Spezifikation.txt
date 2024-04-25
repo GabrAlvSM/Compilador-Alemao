@@ -1,0 +1,26 @@
+<buchstaben> ::= abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+<nummer> ::= 1234567890.-+
+<symbol> ::= \:
+<var> ::= <buchstaben>
+<rechenzeichen> ::= + | - | * | / 
+<rehandlungsbetreiber>::= < | > | != | = | <= | >= 
+<zeichenfolge> ::= "<wortlich>"
+<name> ::= <wortlich>
+<wortlich> ::= <buchstaben>|<nummer>|<symbol>
+<varnum> ::= <var>|<nummer>|<var><nummer>
+<typ> ::= ganz | schweben | bool | char
+-------------------------------------
+<name> {
+<typ> <var>;
+lesen <varnum>
+drucken <zeichenfolge>
+<var> = <var> |"<buchstaben>"|<nummer>
+<var> = <varnum> <rehandlungsbetreiber> <varnum> {
+<var> = <varnum> <rechenzeichen> <varnum> {
+wenn <var> <rehandlungsbetreiber> <varnum> {
+fur <var> aus <varnum> <rehandlungsbetreiber> <varnum> {
+Neue Zeile
+<var> = <var>
+wahrend <varnum> <rehandlungsbetreiber> <varnum> {
+anders {
+zu = <rehandlungsbetreiber>|<rechenzeichen
